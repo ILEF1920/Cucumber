@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         tags = "@RegressionTest",
         publish = false
+        plugin = {"json:target/cucumber.json"},
 )
 public class TestRunner {
 }
